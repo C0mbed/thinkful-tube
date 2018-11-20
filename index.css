@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #fff);
+  color: rgb(255,0,0);
+  margin-bottom: 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 10px 16px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 1.25em;
+  color:rgba(0,0,0,0.75);
+  font-weight: bold;
+}
+
+input {
+  background-color: #fff;
+  color: black;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 10px 16px;
+}
+
+.navbar>img {
+  height: 20px;
+  width: 40px;
+}
+
+.result_card>img {
+  width: 100%;
+  margin: 0px 0 0 10px;
+  display: flex;
+  flex-direction: flex-start;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 23px;
+  background-color: #ffffff;
+  border-bottom: 1px solid transparent;
+  border-color: rgba(0,0,0,0.14);
+  padding: 20px;
+}
+
+.search_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #fafafa;
+  padding: 1em;
+}
+
+.js-search-result {
+  display: flex;
+  flex-direction: row;
+}
+
+.result_card {
+  display: flex;
+  flex-direction: columm;
+  background-color: #fff;
+  width: 33%
+}
+
+.user a:hover,
+.user a:focus,
+.search input:focus,
+.search button:focus {
+  outline: 5px dotted salmon;
+}
